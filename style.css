@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: radial-gradient(100% 100% at 50% 50%, rgba(6, 5, 26, 1) 19%, rgba(0, 0, 0, 1) 50%); background-blend-mode: normal;
+}
+
+.gif-moeda{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+main{
+    width: 375px;
+    background: white;
+    border-radius: 20px;
+    margin: 0 auto 40px;
+    padding: 44px 24px 23px;
+    
+}
+
+label{
+    color: rgb(61, 54, 54);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+select, input{
+    background: white;
+    border: 3px solid rgb(27, 27, 27);
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 20px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+input{
+    cursor: auto;
+}
+
+button{
+    background: rgb(0, 61, 97);
+    border-radius: 5px;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 48px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    height: 54px;
+    width: 304px;
+    transition: 0.2s ease-in-out;
+}
+
+section{
+    border: 3px solid rgb(0, 61, 97);
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bandeiras{
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+}
+
+.arrow-img{
+    height: 90px;
+    width: 60px;
+    margin: 20px;
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency{
+    color: rgb(27, 27, 27);
+    font-size: 14px;
+}
+
+.currency-value{
+   color: rgb(27, 27, 27);
+    font-weight: 700;
+    font-size: 20px;
+}
